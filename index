@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación Virtual | El Futuro del Aprendizaje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">EduVirtual</a>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-es">Qué es</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#plataformas">Plataformas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div class="container">
+            <h1>El Futuro del Aprendizaje es Ahora</h1>
+            <p>Descubre las oportunidades de la educación virtual y aprende sin barreras.</p>
+            <a href="#que-es" class="btn">Conoce Más</a>
+        </div>
+    </header>
+
+    <section id="que-es" class="section">
+        <div class="container">
+            <h2>¿Qué es la Educación Virtual?</h2>
+            <p>La educación virtual, también conocida como enseñanza en línea, es una modalidad de aprendizaje que utiliza las Tecnologías de la Información y Comunicación (TICs). Permite que estudiantes y docentes interactúen en un entorno digital, rompiendo las barreras del espacio físico y el tiempo, facilitando el acceso al conocimiento desde cualquier lugar.</p>
+        </div>
+    </section>
+
+    <section id="ventajas" class="section bg-light">
+        <div class="container">
+            <h2>Ventajas Clave</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Flexibilidad Total</h3>
+                    <p>Estudia a tu propio ritmo y desde cualquier lugar. Adapta tu aprendizaje a tu vida personal y profesional.</p>
+                </div>
+                <div class="card">
+                    <h3>Acceso Global</h3>
+                    <p>Accede a programas educativos y expertos de todo el mundo sin necesidad de viajar o mudarte.</p>
+                </div>
+                <div class="card">
+                    <h3>Recursos Interactivos</h3>
+                    <p>Aprende a través de videos, simulaciones, foros de discusión y herramientas multimedia que enriquecen la experiencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plataformas" class="section">
+        <div class="container">
+            <h2>Plataformas Populares</h2>
+            <p>El ecosistema de la educación virtual se apoya en potentes herramientas:</p>
+            <ul>
+                <li><strong>LMS (Sistemas de Gestión de Aprendizaje):</strong> Como Moodle, Blackboard y Canvas.</li>
+                <li><strong>Herramientas de Aula:</strong> Como Google Classroom y Microsoft Teams.</li>
+                <li><strong>Plataformas MOOC:</strong> Como Coursera, edX y Platzi.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto" class="section bg-dark">
+        <div class="container">
+            <h2>¿Interesado en aprender más?</h2>
+            <p>Déjanos tu correo y te enviaremos más información.</p>
+            <form class="contact-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit" class="btn">Suscribirse</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EduVirtual. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
